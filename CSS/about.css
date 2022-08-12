@@ -43,8 +43,8 @@ a{
 }
 
 .firstSectionPage h1{
-    text-align: center;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 .firstSectionText{
@@ -68,4 +68,123 @@ a{
     margin: 50px 0;
     font-size: 30px;
     font-weight: bold;
+}
+
+.secondSectionPage button{
+    padding: 15px  20px;
+    border-radius: 20px;
+    font-size: 17px;
+    box-shadow: 1px 2px 1px 1px rgb(212, 205, 205);
+    background-color: #034b63;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.secondSectionPage button:hover{
+    background-color: rgb(0, 0, 128) ;
+}
+
+.middleSectionPage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #034b63;
+    padding: 10rem 4rem;
+    color: #fff;
+}
+
+.middleSectionPage p{
+    margin-top: 20px;
+}
+
+/* This library was used to add a slide arrow on the image being displayed */
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    display: block !important;
+    border:0px solid rgb(16,35,52);
+    font-size: 50px;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    right: 25px;
+    display: block !important;
+    border:0px solid rgb(16,35,52);
+    font-size: 50px;
+} 
+/* stops Here*/
+
+.thirdSectionPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+    gap: 100px;
+}
+
+.thirdSectionPage h1{
+    font-size: 40px;
+}
+
+.thirdSectionPage p{
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.thirdSectionPage button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: #034b63;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.thirdSectionPage button:hover{
+    background-color: #fff;
+    color: #034b63;
+    border: 2px solid #034b63;
+    font-weight: 500;
+}
+
+.footerClass{
+    text-align: center;
+    background-color: #034B63;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footerMedia{
+    margin-top: 20px;
+}
+
+.footerMedia a{
+    margin-right: 20px;
+    color: rgb(216, 210, 210);
+    font-size: 30px;
+}
+
+.footerClass p{
+    margin: 20px 0;
+}
+
+.footerClass hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto ;
+    color: rgb(148, 147, 147);
 }
