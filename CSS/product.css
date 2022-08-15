@@ -65,10 +65,8 @@ a{
 }
 
 .firstSection button:hover{
-    background-color: #fff;
-    color: #034b63;
-    border: 2px solid #034b63;
-    font-size: 17px;
+    background-color: #052f3b;
+    color: #fff;
     font-weight: 500;
 }
 

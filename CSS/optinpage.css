@@ -67,6 +67,12 @@ a{
     cursor: pointer;
 }
 
+.firstSection button:hover{
+    background-color: #052f3b;
+    color: #fff;
+    font-weight: 500;
+}
+
 .footerClass{
     text-align: center;
     background-color: #034B63;
