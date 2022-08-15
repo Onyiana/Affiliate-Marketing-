@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 
 a{
     text-decoration: none;
