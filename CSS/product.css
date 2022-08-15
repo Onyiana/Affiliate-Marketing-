@@ -100,3 +100,19 @@ a{
     margin-right:auto ;
     color: rgb(148, 147, 147);
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#102334;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 4px;
+}
