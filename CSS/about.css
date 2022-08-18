@@ -328,10 +328,12 @@ a{
 
     .owl-prev {
         font-size: 30px;
+        top: 28%;
     }
     
     .owl-next {
         font-size: 30px;
+        top: 28%;
     } 
     
 }
