@@ -124,3 +124,42 @@ a{
     padding: 7px;
     border-radius: 4px;
 }
+
+@media screen and (max-width:768px) {
+    .firstSection{
+        flex-direction: column;
+        padding: 0  2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .firstSection img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .firstSection h1{
+        font-size: 20px;
+    }
+
+    .firstSection button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .AffilliateText p{
+        width: 100%;
+    }
+
+    .footerClass img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerClass p{
+        font-size: 15px;
+        padding: 0 30px;
+    }
+}
