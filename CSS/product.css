@@ -125,7 +125,21 @@ a{
 @media screen and (max-width:992px) {
     .firstSection{
         grid-template-columns: repeat(2, 1fr);
-        padding: 5rem  2rem;
+        padding: 5rem  1.5rem;
+        width: 100%;
+    }
+
+    .firstSection p{
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .firstSection button{
+        margin-bottom: 50px;
+    }
+
+    .footerClass{
+        margin-top: 500px;
     }
 }
 
@@ -134,16 +148,20 @@ a{
         grid-template-columns: repeat(1, 1fr);
         padding: 5rem;
     }
+
+    .firstSection p{
+        font-size: 16px;
+    }
+
+    .footerClass{
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width:375px) {
     .firstSection{
         grid-template-columns: repeat(1, 1fr);
         padding: 5rem  2rem;
-    }
-
-    .firstSection button{
-        margin-bottom: 50px;
     }
     
     .AffilliateText p{
