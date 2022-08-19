@@ -115,3 +115,51 @@ a{
     padding: 7px;
     border-radius: 4px;
 }
+
+@media screen and (max-width:992px) {
+    .firstPage{
+        padding: 5rem 5rem;
+    }
+
+    .AffilliateText p{
+        width: 100%;
+    }
+
+    .footerClass img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerClass p{
+        font-size: 15px;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .firstPage h1{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .firstPage{
+        padding: 5rem 2rem;
+    }
+
+    .AffilliateText p{
+        width: 100%;
+    }
+
+    .footerClass img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerClass p{
+        font-size: 15px;
+        padding: 0 30px;
+    }
+}
