@@ -125,7 +125,27 @@ a{
     border-radius: 4px;
 }
 
+@media screen and (max-width:992px) {
+    .firstSection{
+       margin-top: 200px;
+    }
+
+    .footerClass{
+        margin-top: 700px;
+        height: 30vh;
+    }
+}
+
 @media screen and (max-width:768px) {
+    .firstSection{
+        margin-top: 50px;
+    }
+ 
+    .footerClass{
+        margin-top: 100px;
+        height: 60vh;
+    }
+
     .firstSection{
         flex-direction: column;
         padding: 0  2rem;
@@ -133,6 +153,7 @@ a{
 }
 
 @media screen and (max-width:576px) {
+
     .firstSection img{
         width: 90%;
         margin-left: auto;
@@ -161,5 +182,21 @@ a{
     .footerClass p{
         font-size: 15px;
         padding: 0 30px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .firstSection{
+        margin-top: 20px;
+    }
+
+    .footerClass{
+        margin-top: 100px;
+        height: 55vh;
+    }
+
+    .footerClass p{
+        font-size: 15px;
+        padding: 0 40px;
     }
 }
