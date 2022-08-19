@@ -121,3 +121,39 @@ a{
     padding: 7px;
     border-radius: 4px;
 }
+
+@media screen and (max-width:992px) {
+    .firstSection{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5rem  2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .firstSection{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .firstSection{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5rem  2rem;
+    }
+    
+    .AffilliateText p{
+        width: 100%;
+    }
+
+    .footerClass img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerClass p{
+        font-size: 15px;
+        padding: 0 30px;
+    }
+}
