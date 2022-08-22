@@ -10,6 +10,14 @@ html, body{
     scroll-behavior: smooth;
 }
 
+.blur{
+    filter: blur(3px);
+}
+
+.hideScroll{
+    overflow-y: hidden;
+}
+
 a{
     text-decoration: none;
 }
