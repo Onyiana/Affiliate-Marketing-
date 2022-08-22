@@ -174,7 +174,7 @@ a{
 
     /* Styling the navlinks and navbar on smaller screen. */
     .navlinks{
-        background-color:#fff;
+        background-color:rgb(175, 186, 199);
         flex-direction: column;
         position: absolute;
         width: 300px;
