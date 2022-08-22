@@ -2,6 +2,30 @@
 let date = document.getElementById("date")
 date.innerHTML = new Date().getFullYear()
 
+const menuOpen = document.querySelector('.ri-menu-add-line')
+const menuClose = document.querySelector('.ri-close-circle-fill')
+const navMenu = document.querySelector('.navlinks')
+menuOpen.addEventListener('click', function(){
+    navMenu.style.left = '50%'
+    menuOpen.style.display = 'none'
+    menuClose.style.display = 'block'
+})
+
+menuClose.addEventListener('click', function(){
+    navMenu.style.left = '-50%'
+    menuOpen.style.display = 'block'
+    menuClose.style.display = 'none'
+})
+
+const navLists = document.querySelectorAll('li')
+navLists.forEach((element) => {
+    element.addEventListener('click', function(){
+        navMenu.style.left = '-50%'
+        menuClose.style.display = 'none'
+        menuOpen.style.display = 'block'
+    })
+})
+
 
 $(".owl-carousel").owlCarousel({
     items: 4,
@@ -25,6 +49,7 @@ $(".owl-carousel").owlCarousel({
         }
     }
 });
+
 
 
 //Get the button

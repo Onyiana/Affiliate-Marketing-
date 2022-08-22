@@ -22,10 +22,14 @@ a{
     padding: 10px  5rem;
 }
 
-.navbar a{
-   font-size: 25px;
-}
 
+.navbar h1{
+    font-size: 20px;
+    display: inline-block;
+    color: #57e5f1;
+    padding: 5px  10px;
+    box-shadow: 1px 1px 2px rgb(48, 47, 47);
+}
 .navlinks{
     display: flex;
     justify-content: center;
@@ -79,6 +83,15 @@ a{
     padding-right: 0;
 }
 
+.footerClass h1{
+    font-size: 25px;
+   display: inline-block;
+   color: #57e5f1;
+    font-style: italic;
+    border: 1px solid #fff;
+    padding: 5px  10px; 
+}
+
 .footerMedia{
     margin-top: 20px;
 }
@@ -98,6 +111,13 @@ a{
     margin-left: auto;
     margin-right:auto ;
     color: rgb(148, 147, 147);
+}
+
+.hamburger{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
 }
 
 #myBtn {
@@ -140,6 +160,42 @@ a{
 @media screen and (max-width:768px) {
     .firstPage h1{
         font-size: 18px;
+    }
+
+    /* This is used to style the navigation bar */
+    .hamburger{
+        display: block;
+        font-size: 23px;
+    }
+
+    .ri-close-circle-fill{
+        display: none;
+    }
+
+    /* Styling the navlinks and navbar on smaller screen. */
+    .navlinks{
+        background-color:#fff;
+        flex-direction: column;
+        position: absolute;
+        width: 300px;
+        top: 50%;
+        right: -50%;
+        left: -50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        padding: 2rem;
+        transition: .5s;
+        border-radius: 10px;
+    }
+
+    .navlinks a{
+      color: #141F44;
+      font-weight: 600;
+      font-size: 15px;  
+    }
+
+    .navbar{
+        padding: 12px 1rem;   
     }
 }
 
